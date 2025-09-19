@@ -1,0 +1,11 @@
+[workspace]
+authors = ["Peter Jackson <peterwjacko@protonmail.com>"]
+channels = ["conda-forge"]
+name = "cake-counter"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+rich = ">=14.1.0,<15"
